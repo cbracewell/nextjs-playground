@@ -2,6 +2,7 @@ import { Container } from "@mui/material";
 import { Box } from "@mui/system";
 import Head from "next/head";
 import Image from "next/image";
+import landscapeImage from "../public/images/landscape-large.jpg";
 
 const name = "Chris Bracewell";
 export const siteTitle = "Next.js Sample Website";
@@ -34,7 +35,7 @@ export default function Layout({
         <Image
           priority
           alt="Landscape image"
-          src="/images/landscape-large.jpg"
+          src={landscapeImage}
           layout="responsive"
           width="800px"
           height="300px"
