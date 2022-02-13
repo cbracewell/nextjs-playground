@@ -38,7 +38,7 @@ export default function Layout({
           src={landscapeImage}
           layout="responsive"
           width="800px"
-          height="300px"
+          height="400px"
         />
       </Box>
       <Container sx={{ marginBottom: 3 }}>
